@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    border: 1px solid rgba(0, 89, 255, 0.829);
+    margin: 10px 15px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete{
+    text-decoration:none;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+nav{
+    background-color: rgba(0, 89, 255, 0.829);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
