@@ -38,6 +38,10 @@ new Vue ({
             });
             this.addTask = ''
         },
+
+        toggleDone: function(item){
+            item.done = !item.done
+        }
         
     }
 })
